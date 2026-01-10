@@ -9,7 +9,7 @@ import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "mern-stack-222df.firebaseapp.com",
-  projectId: "mern-stack-222df",
+  projectId: "mern-stack",
   storageBucket: "mern-stack-222df.firebasestorage.app",
   messagingSenderId: "822058272352",
   appId: "1:822058272352:web:a9d16b6e1fc3b90fcfe505",
