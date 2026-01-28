@@ -4,6 +4,7 @@ import { test } from '../controllers/user.Controller.js';
 const router = express.Router();
 
 router.get('/test',test); 
+router.post('/update/:id', verifyToken, updateUser);
    
 
 
